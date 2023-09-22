@@ -1,0 +1,34 @@
+/* Estilos para la página de Café Tradicional */
+.cafe-tradicional-page {
+    padding: 60px;
+  }
+  
+  /* Estilos para los tipos de café tradicional */
+  .cafe-tradicional-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Estilos para cada tipo de café tradicional */
+  .cafe-tradicional-type {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el botón "Ver Detalles" */
+  .cafe-tradicional-type button {
+    background-color: #845EC2;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cafe-tradicional-type button:hover {
+    background-color: #6B52AE;
+  }
+  

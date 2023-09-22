@@ -1,0 +1,87 @@
+.blog-section {
+  text-align: center;
+  padding: 1px;
+}
+
+.blog-articles-carousel {
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.blog-article {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #008E9B;
+  background-color: #c5b0e6;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+.blog-article:hover {
+  transform: scale(1.05);
+}
+
+.article-image {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.article-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-content {
+  flex: 2;
+  text-align: center;
+}
+
+.article-content h3 {
+  margin-top: 0;
+}
+
+.article-content p {
+  margin-bottom: 10px;
+}
+
+.article-content button {
+  background-color: #FF9671;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.article-content button:hover {
+  background-color: #845EC2;
+}
+
+/* Ajustes para los dots del carrusel */
+.carousel.carousel-slider .control-dots {
+    position: absolute;
+    bottom: -10px;
+    left: 93%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajustar horizontalmente */
+    margin: 10px;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+ 
+}
+
+.carousel .slider-control-bottomcenter .control-dots {
+  text-align: center;
+}
+
+.carousel .control-dots .dot {
+  background-color: #ede8e8;
+  width: 0,1%; /* Ajusta el tamaño de los dots */
+  margin: 0 2px; /* Ajusta el margen entre los dots */
+}

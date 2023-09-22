@@ -1,0 +1,51 @@
+.contact-cta-section {
+    background-color: #FBEAFF;
+    padding: 50px 0;
+  }
+  
+  .cta-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cta-image img {
+    max-width: 80%;
+    border-radius: 5%;
+    height: auto;
+    display: block;
+  }
+  
+  .cta-text {
+    
+    padding: 0 20px;
+  }
+  
+  .cta-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .cta-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #FF9671;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #D65DB1;
+  }
+  

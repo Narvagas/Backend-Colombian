@@ -1,0 +1,96 @@
+.header-container {
+    background: #845EC2;
+    height: 250px;
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: border 0.3s ease-in-out, padding 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Agregar transición para el color de fondo */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Estilo para el hover interactivo */
+li:hover {
+    border: 2px solid #FF6F91;
+    padding: 8px 18px;
+    background-color: #D65DB1; 
+}
+
+li:hover::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #D65DB1;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: -30px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Estilo para el nombre del proyecto */
+.header-title {
+    font-size: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Eliminar subrayado */
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Boton de busqueda */
+
+.search-icon {
+    position: absolute;
+    top: -90px;
+    left: -100px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  /* Estilo del título */
+
+  .header-title {
+    font-size: 36px; 
+    color: white; 
+    position: absolute;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Colocar el título por encima del panel de navegación */
+  }
+
+  .register-icon {
+    padding: 35px;
+    margin-left: 1150px; 
+    font-size: 24px; 
+  }

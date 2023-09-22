@@ -1,0 +1,41 @@
+.cafe-special-section {
+    text-align: center;
+  }
+
+  .cafe-special-section h2 {
+    margin: 70px;
+  }
+  
+  .cafe-specials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .cafe-special {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cafe-special img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cafe-special h3 {
+    margin-top: 10px;
+  }
+  
+  .cafe-special h2 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .cafe-icon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  

@@ -1,0 +1,50 @@
+.footer {
+  background-color: #171616;
+  color: #fff;
+  padding: 20px 40px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.footer-left {
+  flex: 1;
+  margin-bottom: 10px;
+  font-size: 14px;
+  
+}
+
+.footer-right {
+  flex: 1;
+  font-size: 18px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-right .fa-cc-visa,
+.footer-right .fa-cc-mastercard,
+.footer-right .fa-cc-amex {
+  padding: 0 5px; 
+  color: #fff;
+}
+
+.footer-right .fa:last-child {
+  margin-right: 0;
+}
+
+/* Aplicar estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 5px; 
+  }
+
+  .footer-left,
+  .footer-right {
+    font-size: 14px; 
+  }
+}
